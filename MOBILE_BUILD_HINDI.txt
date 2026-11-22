@@ -1,0 +1,16 @@
+RS WORLD BUSINESS – MOBILE SE APK BANANE KA TARIKA (GitHub Actions)
+
+1) ZIP ko phone me download karke extract karein.
+2) Browser me github.com kholkar login/create account karein.
+3) New repository banayein; naam RSWorldBusiness rakhein; Public ya Private select karke Create repository.
+4) Repository me Add file > Upload files.
+5) Extracted RSWorldAndroid folder ke ANDAR ke files/folders upload karein (app, .github, build.gradle, settings.gradle, gradle.properties). Folder structure bilkul same rahe.
+   Note: .github folder hidden ho sakta hai. File manager me Show hidden files enable karein.
+6) Commit changes.
+7) Repository > Actions tab > Build RS World APK workflow.
+8) Run workflow dabayein (agar automatically run na hua ho), phir run complete hone tak wait karein.
+9) Green success run open karein > Artifacts > RS-World-Business-APK download karein.
+10) Artifact ZIP extract karein. app-debug.apk par tap > Install. Unknown apps install permission pooche to browser/file manager ke liye allow karein.
+
+IMPORTANT: GitHub account public repository me code publicly visible hota hai. Private repo choose karna behtar hai.
+Workflow build ke liye Android SDK 35 aur Java 17 install karta hai.

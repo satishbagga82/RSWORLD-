@@ -1,0 +1,25 @@
+RS WORLD BUSINESS APP – INSTALL GUIDE
+
+Included:
+- Leads: add, search, filter, call, Interested / Not Interested / Follow-up, convert to sale
+- Sales and installation status, appointment, order/service ID, engineer assignment
+- Invoice generation, print/save PDF, WhatsApp pre-filled customer message
+- Expenses, installers, reports, CSV export, JSON backup and restore
+- PWA files for offline caching and home-screen install (hosting required)
+
+IMPORTANT:
+WhatsApp messages are prefilled and open WhatsApp; you must press Send.
+Records are saved locally in this browser/device. Use Backup regularly.
+This is a prototype/business record app, not certified GST accounting software.
+
+INSTALL AS APP (recommended):
+1. Upload these files to a HTTPS hosting service (for example your own website hosting).
+2. Open the hosted index.html link in Chrome on Android.
+3. Chrome menu (three dots) > Install app / Add to Home screen.
+4. Allow install and open RS World Business from your home screen.
+
+If opening index.html directly from the ZIP/file manager, the app can still run,
+but PWA installation and offline caching may not work reliably.
+
+This package does NOT contain a signed Android APK. A native APK needs an Android
+build environment and signing step; this package is a ready-to-host PWA build.
